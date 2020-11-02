@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Asistente para la recopilación de datos</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <script type="text/javascript" src="home.js"></script>
+  </head>
+  <body>
+  <div id="uno">
+    <div class="botones">
+      <button class="buttons" onclick="fase1()">Continuar</button>
+    </div>
+    <br><p>Esta aplicación recopila los datos de cualquiera.</p>
+    <p>Lorem ipsum</p>
+    <p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce fermentum aliquet consectetur. In porttitor eget ipsum sed ultrices. Pellentesque dictum nisi mauris, nec efficitur nisl blandit in. Donec molestie elit et feugiat scelerisque. Proin vestibulum felis at mi efficitur, non tincidunt risus commodo. Curabitur venenatis feugiat orci eu scelerisque. Integer interdum lorem in sollicitudin maximus. Pellentesque aliquet placerat erat, nec suscipit mi accumsan quis.</p>
+    <p>Callback URL</p>
+    <input type="text" id="url"><br><br>   
+  </div>
+  <div id="dos" style="display: none;">
+    <form action="#" >
+      <div class="botones">
+        <button class="buttons" onclick="fase0()">Atrás</button>
+        <button class="buttons" onclick="fase2()">Continuar</button>
+      </div>
+      <br><br>
+      <label for="nombre">Nombre y Apellidos:</label>
+      <input type="text" id="2nom" ><br><br>
+      <label for="fecha">Fecha nacimiento:</label>
+      <input type="date" id="2fec" ><br><br>
+      <label for="direccion">Dirección:</label>
+      <input type="text" id="2dir" ><br><br>
+      <label for="postal">Código postal:</label>
+      <input type="text" id="2pos" ><br><br>
+      <label for="provincia">Provincia:</label>
+      <select id="selpro">
+        <option selected="yes">Alicante</option>
+        <option>Castellón</option>
+        <option>Valencia</option>
+      </select><br><br>
+      <label for="municipio">Municipio:</label>
+      <input type="text" id="2mun" ><br><br>
+    </form> 
+  </div>
+  <div id="tres" style="display: none">
+      <div class="botones">
+        <button class="buttons" onclick="fase4()">Atrás</button>
+        <button class="buttons" onclick="fase6()">Continuar</button>
+      </div>    
+  </div>
+  <div id="cuatro" style="display: none">
+      <div class="botones">
+        <button class="buttons" id="term" onclick="fase5()">Terminar</button>
+      </div>   
+      <p>Tus datos han sido correctamente enviados.</p> 
+  </div>
+  </body>
+</html>
