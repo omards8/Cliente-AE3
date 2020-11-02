@@ -1,0 +1,22 @@
+body{
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #5d5d5d;
+}
+#uno{
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+#dos{
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.buttons{
+    border-radius: 3px;
+    background-color: blue;
+    color: orange;
+}
+
